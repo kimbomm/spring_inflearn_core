@@ -15,6 +15,18 @@ public class Member {
     return id;
   }
 
+  public void setId(Long id) {
+    this.id = id;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public void setGrade(Grade grade) {
+    this.grade = grade;
+  }
+
   public String getName() {
     return name;
   }
