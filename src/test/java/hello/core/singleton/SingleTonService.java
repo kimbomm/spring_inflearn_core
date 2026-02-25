@@ -10,7 +10,7 @@ public class SingleTonService {
   }
 
   // 3. 생성자를 private으로 선언해서 외부에서 생성하지 못하도록 함
-  SingleTonService() {}
+  private SingleTonService() {}
 
   public void logic() {
     System.out.println("싱글톤 객체 로직 호출");
